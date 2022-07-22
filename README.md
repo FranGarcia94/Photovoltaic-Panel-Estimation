@@ -40,7 +40,7 @@ In this case, calculations have been made with monthly irradiation data for a ti
 
 Besides this we have to define the most important variables: **Latitude**, **Longitude** and **Tilt angle**.
 
-To choose the optimal angle there are several ways to define it depending on our interests, if we want to focus on production in summer, winter or throughout the year. 
+To choose the optimal angle[^1] there are several ways to define it depending on our interests, if we want to focus on production in summer, winter or throughout the year. 
 
 In this case and without going into details, we are going to prioritize the annual consumption where we could take the latitude of the place as the optimal angle, however, we are going to use the following expression:
 ```python
@@ -79,3 +79,4 @@ For an in-depth study, it is necessary to take into account important factors su
 
 Other factors such as the number and capacity of batteries, series/parallel connection of panels, inverter or charge regulator should also be taken into account.
 
+[^1]: The optimal angle refers to the inclination of the photovoltaic panel. Another thing is the orientation that if we are in the northern hemisphere the panels will be oriented to the south and if we are in the southern hemisphere to the north (as long as it is possible).
