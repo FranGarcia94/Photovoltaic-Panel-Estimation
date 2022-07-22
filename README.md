@@ -1,5 +1,15 @@
 # Solar-Panel-Estimation
 
+[![Python_version](https://img.shields.io/badge/Python-v3.10.2-blueviolet?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
+![](https://custom-icon-badges.herokuapp.com/github/license/FranGarcia94/Solar-Panel-Estimation?logo=law)
+![](https://badge-size.herokuapp.com/FranGarcia94/Solar-Panel-Estimation/main/solar_panel_estimation.py)
+![photovoltaic](https://img.shields.io/badge/Photovoltaic-orange?style=plastic)
+
+<p align = "center">
+<a href="https://www.flaticon.es/iconos-gratis/panel-solar"><img src="https://user-images.githubusercontent.com/107102754/180464176-a266bfca-3a50-4a84-b432-3ba43481e6e5.png"/></a>
+</p>
+
+
 With this simple code it is possible to estimate how many photovoltaic solar panels are needed for a house.
 
 This requires some input data which, in this case, are all within the code, except for the city which must be entered by keyboard.
@@ -59,8 +69,7 @@ Enter a City: Almería
 
 Number of 400.0 W modules required: 8
 
-![av_mo_irr](/assets/average_monthly_irradiation.png)
-![av_mo_con](/assets/average_monthly_consumption.png)
+<img src="assets/average_monthly_irradiation.png" width="500"> <img src="assets/average_monthly_consumption.png" width="500">
 
 ## Conclusion
 
