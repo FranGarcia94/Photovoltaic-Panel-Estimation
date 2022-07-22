@@ -2,7 +2,7 @@
 
 [![Python_version](https://img.shields.io/badge/Python-v3.10.2-blueviolet?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
 ![](https://custom-icon-badges.herokuapp.com/github/license/FranGarcia94/Solar-Panel-Estimation?logo=law)
-![](https://badge-size.herokuapp.com/FranGarcia94/Solar-Panel-Estimation/main/solar_panel_estimation.py)
+![](https://badge-size.herokuapp.com/FranGarcia94/Solar-Panel-Estimation/master/solar_panel_estimation.py)
 ![photovoltaic](https://img.shields.io/badge/Photovoltaic-orange?style=plastic)
 
 <p align = "center">
