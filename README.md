@@ -25,7 +25,7 @@ In this case, calculations have been made with monthly irradiation data for a ti
 ```
 - **vers** indicates the version of PVGIS, which in this case is the most current one.
 - **tool name** refers to the name of the tool within PVGIS that we are going to access.
-- **data_base** is the chosen database. I have chosen this one because it had records of more years. Depending on the search area the databases can change, an option if you are not clear about this is to remove this parameter since the API takes by default a database depending on the location. If we do this we have to make sure that this database has records from the indicated years. The default DBs are PVGIS-SARAH, PVGIS-NSRDB and PVGIS-ERA5 based on the chosen location.
+- **data_base** is the chosen database. I have chosen this one because it had records more years. Depending on the search area the databases can change, an option if you are not clear about this is to remove this parameter since the API takes by default a database depending on the location. If we do this we have to make sure that this database has records from the indicated years. The default DBs are PVGIS-SARAH, PVGIS-NSRDB and PVGIS-ERA5 based on the chosen location.
 - **isang** indicates that we are going to pass the optimal angle to the request.
 
 Besides this we have to define the most important variables: **Latitude**, **Longitude** and **Tilt angle**.
@@ -50,3 +50,23 @@ There are three parameters that are necessary for the calculation: **performance
 - **module_power** corresponds to the power of a generic module, in this case a 400 W module has been assumed.
 
 ## Results
+
+Enter a City: Almería
+|                                      |    Jan |    Feb |    Mar |    Apr |    May |    Jun |    Jul |    Aug |    Sep |    Oct |    Nov |    Dec |
+|--------------------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Average monthly irradiation [kWh/m2] | 139.94 | 148.49 | 183.66 | 194.81 | 214.98 | 220.92 | 229.59 | 222.68 | 191.5  | 169.73 | 135.31 | 136.57 |
+| Average monthly consumption [kWh]    | 252.67 | 156.67 | 177.33 | 221.33 | 187.67 | 197.89 | 266.5  | 387    | 332.67 | 216.33 | 201    | 189.33 |
+
+Number of 400.0 W modules required: 8
+
+![av_mo_irr](/assets/average_monthly_irradiation.png)
+![av_mo_con](/assets/average_monthly_consumption.png)
+
+## Conclusion
+
+This code does not carry out a detailed study of the user's needs nor does it propose a viable solution, but rather, it makes a simple estimate of the solar capacity necessary to satisfy their needs, to see graphically what the consumption trend is and the irradiation that reaches their area.
+
+For an in-depth study, it is necessary to take into account important factors such as: Forecast increase in demand, what the self-consumption is aimed at, use of batteries, connection to the grid, annual or weekend use, etc.
+
+Other factors such as the number and capacity of batteries, series/parallel connection of panels, inverter or charge regulator should also be taken into account.
+
