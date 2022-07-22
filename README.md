@@ -69,7 +69,7 @@ Enter a City: Almería
 
 Number of 400.0 W modules required: 8
 
-<img src="assets/average_monthly_irradiation.png" width="500"> <img src="assets/average_monthly_consumption.png" width="500">
+<img src="assets/average_monthly_irradiation.png" width="400"> <img src="assets/average_monthly_consumption.png" width="400">
 
 ## Conclusion
 
