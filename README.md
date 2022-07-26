@@ -1,9 +1,9 @@
 # Solar-Panel-Estimation
 
-[![Python_version](https://img.shields.io/badge/Python-v3.10.2-blueviolet?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
+[![Python_version](https://img.shields.io/badge/Python-v3.10.2-blueviolet?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
 ![](https://custom-icon-badges.herokuapp.com/github/license/FranGarcia94/Solar-Panel-Estimation?logo=law)
 ![](https://badge-size.herokuapp.com/FranGarcia94/Solar-Panel-Estimation/master/solar_panel_estimation.py)
-![photovoltaic](https://img.shields.io/badge/Photovoltaic-orange?style=plastic)
+![photovoltaic](https://img.shields.io/badge/Photovoltaic-orange?style=flat)
 
 <p align = "center">
 <a href="https://www.flaticon.es/iconos-gratis/panel-solar"><img src="https://user-images.githubusercontent.com/107102754/180464176-a266bfca-3a50-4a84-b432-3ba43481e6e5.png"/></a>
